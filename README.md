@@ -15,26 +15,33 @@
 
 I build and refine projects with a focus on quality, maintainability, and solid practices. This repository is my **GitHub profile README** — the landing card on my account home page.
 
-Tune the line above to your focus (e.g. *backend*, *full stack*, *data*) and update badge links if your username is not `deamble`.
+I care about clear APIs, sensible architecture, and code that stays easy to change.
 
 ---
 
-## Stack & tools
+## Tech stack
 
-Swap in the technologies you actually use:
+**Languages**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+
+**Runtime & backend**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+
+**Tooling**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
 ---
 
 ## GitHub
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=deamble&show_icons=true&theme=tokyonight&hide_border=true&locale=en)
+![GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=deamble&theme=tokyonight)
 
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=deamble&layout=compact&theme=tokyonight&hide_border=true&locale=en)
+![Top languages by commit](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=deamble&theme=tokyonight)
 
 ---
 
@@ -50,6 +57,6 @@ Swap in the technologies you actually use:
 
 <div align="center">
 
-*Update dates and sections as your profile evolves.*
+<!-- *Update dates and sections as your profile evolves.* -->
 
 </div>
