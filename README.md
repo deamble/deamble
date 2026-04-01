@@ -51,23 +51,6 @@ Delivery I’ve owned in **private and client repositories** (code stays off the
 - MySQL-heavy work: transactional flows, reporting-oriented queries, and careful schema evolution across releases  
 - Docker/Linux runtimes, Git-based collaboration, and release-friendly workflows with the team  
 
-### GitHub open activity
-
-<div align="center">
-
-<table cellspacing="16" cellpadding="0" border="0">
-<tr>
-<td align="center" valign="top">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=deamble&theme=nord_dark" alt="GitHub statistics: stars, commits, PRs, issues" />
-</td>
-<td align="center" valign="top">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=deamble&theme=nord_dark" alt="Top languages by commit" />
-</td>
-</tr>
-</table>
-
-</div>
-
 <br/>
 
 <div align="center">
