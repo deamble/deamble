@@ -56,16 +56,19 @@ Delivery I’ve owned in **private and client repositories** (code stays off the
 ### GitHub overview
 
 <p align="center">
-<sub>Cards are SVG files on <code>main</code> (see <a href="https://github.com/deamble/deamble/actions/workflows/profile-summary-cards.yml">Actions</a>). They load here and in local preview via raw URLs. If you only see captions, run the workflow once and wait for the commit that adds <code>profile-summary-card-output/</code>.</sub>
+<a href="https://github.com/deamble/deamble/actions/workflows/profile-summary-cards.yml"><img src="https://github.com/deamble/deamble/actions/workflows/profile-summary-cards.yml/badge.svg" alt="Profile cards workflow" /></a>
+</p>
+
+<p align="center">
+<sub><strong>Below:</strong> live cards from the public API (always visible). After <a href="https://github.com/deamble/deamble/actions/workflows/profile-summary-cards.yml">this workflow</a> runs successfully, it commits <code>profile-summary-card-output/</code> with stats that include <strong>private</strong> repos (via your <code>SUMMARY_GITHUB_TOKEN</code>). You can then swap the image URLs to <code>raw.githubusercontent.com/.../profile-summary-card-output/nord_dark/*.svg</code> if you want the README to show that private-inclusive snapshot.</sub>
 </p>
 
 <br/>
 
 <div align="center">
 
-<!-- nord_dark card set; paths = branch main -->
 <p><strong>Profile</strong></p>
-<img src="https://raw.githubusercontent.com/deamble/deamble/main/profile-summary-card-output/nord_dark/0-profile-details.svg" alt="Profile overview" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=deamble&theme=nord_dark" alt="Profile overview" />
 
 <br/><br/>
 
@@ -73,10 +76,10 @@ Delivery I’ve owned in **private and client repositories** (code stays off the
 <table cellspacing="0" cellpadding="10" border="0" align="center">
 <tr>
 <td align="center" valign="top">
-<img src="https://raw.githubusercontent.com/deamble/deamble/main/profile-summary-card-output/nord_dark/3-stats.svg" alt="GitHub statistics" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=deamble&theme=nord_dark" alt="GitHub statistics" />
 </td>
 <td align="center" valign="top">
-<img src="https://raw.githubusercontent.com/deamble/deamble/main/profile-summary-card-output/nord_dark/2-most-commit-language.svg" alt="Top languages by commit" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=deamble&theme=nord_dark" alt="Top languages by commit" />
 </td>
 </tr>
 </table>
@@ -87,10 +90,10 @@ Delivery I’ve owned in **private and client repositories** (code stays off the
 <table cellspacing="0" cellpadding="10" border="0" align="center">
 <tr>
 <td align="center" valign="top">
-<img src="https://raw.githubusercontent.com/deamble/deamble/main/profile-summary-card-output/nord_dark/1-repos-per-language.svg" alt="Top languages by repository" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=deamble&theme=nord_dark" alt="Top languages by repository" />
 </td>
 <td align="center" valign="top">
-<img src="https://raw.githubusercontent.com/deamble/deamble/main/profile-summary-card-output/nord_dark/4-productive-time.svg" alt="Most productive hours (UTC-3)" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=deamble&theme=nord_dark&utcOffset=-3" alt="Most productive hours (UTC-3)" />
 </td>
 </tr>
 </table>
@@ -102,7 +105,7 @@ Delivery I’ve owned in **private and client repositories** (code stays off the
 
 <br/>
 
-<sub><strong>Summary cards</strong> use a PAT with <code>repo</code> scope → <strong>public + private</strong> repos. The timeline widget does not use your token → <strong>public</strong> only.</sub>
+<sub>Embedded cards above = <strong>public</strong> GitHub data. Timeline graph = <strong>public</strong> commits only. Workflow-generated SVGs on <code>main</code> = <strong>public + private</strong> when the PAT has <code>repo</code> scope.</sub>
 
 </div>
 

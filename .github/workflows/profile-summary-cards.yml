@@ -1,6 +1,10 @@
 name: GitHub Profile Summary Cards
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "profile-summary-card-output/**"
   workflow_dispatch:
   schedule:
     - cron: "0 6 * * *"
